@@ -81,14 +81,13 @@
 
 	main {
 		text-align: center;
-		padding: 10px;
 		font-family: Arial, sans-serif;
-		max-width: 100%;
+		max-width: 100vw;
 		overflow-x: hidden;
 	}
 
 	h1 {
-		font-size: clamp(1.5rem, 4vw, 2.5rem);
+		font-size: clamp(1.5rem, 5vw, 2.5rem);
 		margin-bottom: 1rem;
 	}
 
@@ -96,7 +95,7 @@
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
 		gap: 3px;
-		width: calc(var(--square-size) * 5 + 20px);
+		width: calc(var(--square-size) * 5 + 10px);
 		margin: 10px auto;
 	}
 
@@ -143,7 +142,7 @@
 
 	@media (max-width: 480px) {
 		:root {
-			--square-size: 18vw;
+			--square-size: 16.5vw;
 		}
 
 		.bingo-card {
@@ -151,7 +150,7 @@
 		}
 
 		.bingo-square {
-			font-size: 0.6rem;
+			font-size: 0.75rem;
 		}
 	}
 	.qwitcher-grypen-regular {
@@ -178,7 +177,7 @@
 	}
 
 	.big-text {
-		font-size: 8em;
+		font-size: 7em;
 		leading: 0.1em;
 		margin-top: 0px;
 		margin-bottom: 0px;
