@@ -145,6 +145,10 @@
 			--square-size: 16.5vw;
 		}
 
+		.big-text {
+			font-size: 25vw !important;
+		}
+
 		.bingo-card {
 			width: 95vw;
 		}
