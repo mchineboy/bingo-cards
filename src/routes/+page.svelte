@@ -69,6 +69,7 @@
 			{/each}
 		</div>
 		<button on:click={generateCard}>New Bingo Card</button>
+		<p class="rubik-mono-one-regular small-text">Made with 💖 by <a href="https://www.tiktok.com/@yellerjeep">yellerjeep.</a></p>
 	{:else}
 		<p>Loading phrases or not enough phrases available...</p>
 	{/if}
@@ -184,6 +185,13 @@
 		font-size: 7em;
 		leading: 0.1em;
 		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.small-text {
+		font-size: 0.5em;
+		leading: 0.1em;
+		margin-top: 5vh;
 		margin-bottom: 0px;
 	}
 
